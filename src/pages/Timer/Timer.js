@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import style from "../Timer/style.css"
 
 const Timer = () => {    
     const [date, setDate] = useState(getTimer())

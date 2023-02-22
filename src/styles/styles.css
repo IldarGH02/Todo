@@ -1,0 +1,137 @@
+.todo__content {
+  max-width: 50%;
+  padding: 50px 0;
+}
+.todo__content .todo__input-block {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 35px;
+}
+.todo__content .todo__input-block .todo__input {
+  flex-grow: 1;
+  margin-right: 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  outline: 1px solid #333;
+}
+.todo__content .todo__input-block .todo__add-btn {
+  cursor: pointer;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 10px;
+  outline: 1px solid #333;
+  background: transparent;
+  transition: background-color 0.3s ease-in-out, color 0.2s ease-in-out;
+}
+.todo__content .todo__input-block .todo__add-btn:hover {
+  background-color: #fa7304;
+  color: #fff;
+}
+
+.clock__content {
+  padding: 50px 0;
+  text-align: center;
+}
+.clock__content .clock {
+  font-size: 70px;
+  font-weight: 400;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: orange;
+}
+
+.surprise__content {
+  padding: 50px 0;
+  text-align: center;
+}
+.surprise__content .surprise__btn {
+  margin-bottom: 20px;
+  padding: 15px 20px;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  border-radius: 20px;
+  outline: 1px solid #333;
+  transition: background-color 0.3s ease-in-out, scale 0.1s ease-in-out, color 0.2s ease-in-out;
+}
+.surprise__content .surprise__btn:hover {
+  background-color: #fa7304;
+  color: #fff;
+}
+.surprise__content .surprise__btn:active {
+  scale: 0.85;
+}
+.surprise__content .surprise__title {
+  margin: 0;
+}
+
+.header {
+  background-color: #038836;
+}
+
+.header__content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+}
+.header__content .header__title {
+  margin: 0;
+  font-size: 35px;
+  font-weight: 500;
+  color: #fff;
+}
+.header__content .header__items {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+}
+.header__content .header__items .header__item {
+  list-style: none;
+}
+.header__content .header__items .header__item:not(:last-child) {
+  margin-right: 30px;
+}
+.header__content .header__items .header__item .header__link {
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.3s ease-in-out;
+}
+.header__content .header__items .header__item .header__link:hover {
+  color: #fa7304;
+}
+
+.todo__item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #333;
+}
+
+.todo__action {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.todo__action input[type=checkbox i] {
+  cursor: pointer;
+  margin: 0;
+  margin-right: 10px;
+}
+.todo__action .todo__btn {
+  cursor: pointer;
+  border-radius: 2px;
+  background-color: transparent;
+  border: none;
+  outline: 1px solid #333;
+  transition: background-color 0.3s ease-in-out, color 0.2s ease-in-out;
+}
+.todo__action .todo__btn:hover {
+  background-color: #fa7304;
+  color: #fff;
+}/*# sourceMappingURL=styles.css.map */

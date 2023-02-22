@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import style from "../Surprise/style.css"
 
 const Surprise = () => {
     const [open, setOpen] = useState(false)

@@ -1,8 +1,7 @@
 import React, { useEffect, useState } from "react";
-import ToDoItem from "../../ToDoItem/ToDoItem/ToDoItem";
-import todosData from "../../ToDoItem/ToDoItem/todosData";
-import AddTask from "../../AddTask/AddTask";
-import style from "../Todo/style.css"
+import ToDoItem from "../../components/ToDoItem/ToDoItem";
+import todosData from "../../components/ToDoItem/todosData"
+import AddTask from "../../components/AddTask/AddTask"
 
 const Todo = () => {
     const [todos, setTodos] = useState(

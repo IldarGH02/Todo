@@ -1,8 +1,8 @@
 import React from "react";
-import Timer from "../Pages/Timer/Timer";
-import Todo from "../Pages/Todo/Todo";
-import Surprise from "../Pages/Surprise/Surprise";
-import StartPage from "../Pages/StartPage/StartPage";
+import Timer from "../../pages/Timer/Timer";
+import Todo from "../../pages/Todo/Todo";
+import Surprise from "../../pages/Surprise/Surprise";
+import StartPage from "../../pages/StartPage/StartPage";
 import { Routes, Route } from "react-router-dom";
 
 const Main = () => {

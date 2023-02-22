@@ -1,5 +1,4 @@
 import React from "react";
-import style from "../../ToDoItem/ToDoItem/style.css"
 
 const ToDoItem = (props) => {
     return (
