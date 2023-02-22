@@ -1,0 +1,24 @@
+.surprise__content {
+  padding: 50px 0;
+  text-align: center;
+}
+.surprise__content .surprise__btn {
+  margin-bottom: 20px;
+  padding: 15px 20px;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  border-radius: 20px;
+  outline: 1px solid #333;
+  transition: background-color 0.3s ease-in-out, scale 0.1s ease-in-out, color 0.2s ease-in-out;
+}
+.surprise__content .surprise__btn:hover {
+  background-color: #fa7304;
+  color: #fff;
+}
+.surprise__content .surprise__btn:active {
+  scale: 0.85;
+}
+.surprise__content .surprise__title {
+  margin: 0;
+}/*# sourceMappingURL=style.css.map */

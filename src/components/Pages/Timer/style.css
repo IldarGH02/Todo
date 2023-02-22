@@ -1,0 +1,10 @@
+.clock__content {
+  padding: 50px 0;
+  text-align: center;
+}
+.clock__content .clock {
+  font-size: 70px;
+  font-weight: 400;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: orange;
+}/*# sourceMappingURL=style.css.map */
